@@ -2,7 +2,7 @@
 
 sudo pacman -S base-devel
 sudo pacman -S xorg xorg-xinit
-sudo pacman -S vim xmonad xmonad-contrib zsh konsole
+sudo pacman -S vim xmonad xmonad-contrib zsh nitrogen picom gnome-keyring konsole
 git clone https://github.com/powerline/fonts.git
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 cp -r vim/.vim/ vim/.viminfo vim/.vimrc $HOME/
